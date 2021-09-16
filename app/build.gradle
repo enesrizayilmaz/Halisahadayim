@@ -1,0 +1,97 @@
+
+
+buildscript {
+    repositories {
+        maven { url 'https://plugins.gradle.org/m2/'}
+    }
+    dependencies {
+        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:[0.12.9, 0.99.99]'
+    }
+}
+apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+repositories {
+    maven { url 'https://maven.google.com' }
+}
+
+android {
+    compileSdkVersion 29
+
+    defaultConfig {
+        manifestPlaceholders = [
+                onesignal_app_id: '32592274-b643-4325-9a64-52f13a5eddc0',
+                // Project number pulled from dashboard, local value is ignored.
+                onesignal_google_project_number: 'REMOTE'
+        ]
+        applicationId 'com.playhali.halsahadaym'
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 21
+        versionName '21.0'
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+
+    buildTypes {
+        release {
+
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    dependenciesInfo {
+        includeInApk true
+        includeInBundle true
+    }
+    buildToolsVersion '29.0.2'
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.android.gms:play-services-basement:17.3.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.firebase:firebase-database:16.0.4'
+    implementation 'com.google.android.gms:play-services-ads:19.1.0'
+    implementation 'com.google.firebase:firebase-ads:19.1.0'
+    implementation 'com.onesignal:OneSignal:[3.15.4, 3.99.99]'
+
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.google.firebase:firebase-analytics:17.4.3'
+    implementation 'com.google.firebase:firebase-core:17.2.1'
+
+
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation "androidx.recyclerview:recyclerview-selection:1.1.0-rc01"
+    implementation 'com.google.firebase:firebase-auth:19.3.1'
+    implementation 'com.google.firebase:firebase-firestore:21.4.3'
+    implementation 'androidx.multidex:multidex:2.0.0'
+    implementation 'io.paperdb:paperdb:2.7.1'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.+'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.firebaseui:firebase-ui-database:6.2.1'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.legacy:legacy-support-core-utils:1.0.0'
+    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+}
+apply plugin: 'com.google.gms.google-services'

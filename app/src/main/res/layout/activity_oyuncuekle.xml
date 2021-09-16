@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+       tools:context=".OYUNCUEKLE"
+    android:background="@drawable/bowling_green_seed">
+
+    <Spinner
+        android:id="@+id/mevki"
+
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+
+        android:layout_marginTop="300dp"
+
+ />
+
+    <Spinner
+        android:id="@+id/il"
+        android:layout_width="fill_parent"
+
+        android:layout_height="40dp"
+
+        android:layout_marginTop="350dp"
+ />
+
+    <Spinner
+        android:id="@+id/ilçe"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:layout_marginTop="400dp"
+
+
+
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <Spinner
+        android:id="@+id/yas"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:layout_marginTop="250dp"
+ />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"
+        android:text="@string/Oyuncu" />
+
+    <Button
+        android:id="@+id/buttonkaydet"
+        android:layout_width="300dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+
+        android:background="@drawable/search_layout2"
+        android:textStyle="bold"
+        android:onClick="btnAddDataa"
+
+
+        android:layout_height="70dp"
+        android:layout_marginTop="500dp"
+        android:text="@string/kaydet" />
+
+    <EditText
+        android:id="@+id/isimsoyisim"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:textStyle="bold"
+
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:textColorHint="#000000"
+
+
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:hint="@string/İsimvesoiyisi" />
+
+
+    <EditText
+        android:id="@+id/telno"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="150dp"
+        android:textSize="19sp"
+        android:importantForAutofill="no"
+        android:layout_height="wrap_content"
+        android:textColorHint="#000000"
+        android:textStyle="bold"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/telno" />
+
+    <EditText
+        android:id="@+id/saat"
+        android:importantForAutofill="no"
+        android:layout_marginTop="200dp"
+        android:textColorHint="#000000"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/Uygunsaat" />
+
+
+
+
+
+</RelativeLayout>

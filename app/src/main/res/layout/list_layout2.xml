@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+    >
+
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textColor="#FFE500"
+        android:textSize="24sp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+
+        android:text="@string/oyuncu1" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="match_parent"
+        android:textColor="#FFE500"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="@string/oyuncu2"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView44"
+        android:textColor="#FFE500"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="@string/oyuncu3"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView55"
+        android:textColor="#FFE500"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="@string/oyuncu4"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#FFE500"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView66"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="@string/oyuncu5"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFE500"
+        android:id="@+id/textView77"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="@string/oyuncu6"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFE500"
+        android:id="@+id/textView88"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="@string/oyuncu7"
+        android:gravity="center"/>
+
+
+</LinearLayout>

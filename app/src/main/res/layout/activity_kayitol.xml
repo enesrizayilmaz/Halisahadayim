@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6AAF19"
+    tools:context=".KAYITOL">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+
+        android:layout_marginBottom="9dp"
+        android:ems="20"
+
+        android:hint="@string/İsimvesoiyisi"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColorHint="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+         />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+
+        android:ems="20"
+        android:hint="@string/telno"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColorHint="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+
+
+        android:ems="20"
+        android:hint="@string/emailgiriniz"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColorHint="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        android:ems="20"
+        android:layout_marginTop="300dp"
+
+        android:hint="@string/sifre"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textColorHint="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/button8_kayit"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginRight="85dp"
+
+        android:layout_marginStart="55dp"
+
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/search_layout2"
+        android:text="@string/KAYITOL"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+       />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_marginTop="525dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginRight="85dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/search_layout2"
+        android:text="@string/hesap"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+</RelativeLayout>

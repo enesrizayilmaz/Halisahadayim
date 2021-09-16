@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+    >
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:textColor="#FFE500"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+
+        android:text="@string/oyuncu1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:textColor="#FFE500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="@string/oyuncu2"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="#FFE500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/oyuncu3"
+        android:gravity="center"/>
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/textView5"
+    android:textStyle="bold"
+    android:textSize="24sp"
+        android:textColor="#FFE500"
+    android:text="@string/oyuncu4"
+    android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textColor="#FFE500"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="@string/oyuncu5"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:textStyle="bold"
+        android:textColor="#FFE500"
+        android:textSize="24sp"
+        android:text="@string/oyuncu6"
+        android:gravity="center"/>
+
+
+</LinearLayout>

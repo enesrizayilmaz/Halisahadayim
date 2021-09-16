@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "528321903164",
+    "firebase_url": "https://halisahadayim-f38ba.firebaseio.com",
+    "project_id": "halisahadayim-f38ba",
+    "storage_bucket": "halisahadayim-f38ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528321903164:android:7cb07e51db510346cd6139",
+        "android_client_info": {
+          "package_name": "com.playhali.halisahadayim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528321903164-8mnksg8cur06k32c1q7p6rij124u9uh4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.playhali.halisahadayim",
+            "certificate_hash": "58e3a5d9145d3b86e1ffe282fecb2329305f2d1a"
+          }
+        },
+        {
+          "client_id": "528321903164-vlqqnr00v9rlil6d88ruo9reg87e1hen.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv6010SwIbtpan3PXQTzoUTpHQcjOjQW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528321903164-vlqqnr00v9rlil6d88ruo9reg87e1hen.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528321903164:android:95d0c9c09be021c8cd6139",
+        "android_client_info": {
+          "package_name": "com.playhali.halsahadaym"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528321903164-vavk8k4eegrucnqe8kbmgic8o37heu5s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.playhali.halsahadaym",
+            "certificate_hash": "50d2d3e2fd5d3b815559850290709d09e85cab35"
+          }
+        },
+        {
+          "client_id": "528321903164-gtj2h8ijqek80565brsp8tetlaif6ral.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.playhali.halsahadaym",
+            "certificate_hash": "58e3a5d9145d3b86e1ffe282fecb2329305f2d1a"
+          }
+        },
+        {
+          "client_id": "528321903164-vlqqnr00v9rlil6d88ruo9reg87e1hen.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv6010SwIbtpan3PXQTzoUTpHQcjOjQW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528321903164-vlqqnr00v9rlil6d88ruo9reg87e1hen.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bowling_green_seed"
+    android:orientation="vertical"
+    tools:context=".MACARA">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+
+        android:gravity="center"
+        android:text="@string/macbul"
+        android:textColor="#000000"
+
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="@string/ilgiriniz"
+        android:textColorHint="#000000"
+        android:iconifiedByDefault="false"
+        android:id="@+id/searchView"
+        android:textStyle="bold"
+        android:importantForAutofill="no"
+
+
+
+        />
+
+    <EditText
+        android:textColorHint="#000000"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:hint="@string/ilcegiriniz"
+        android:textStyle="bold"
+        android:iconifiedByDefault="false"
+        android:importantForAutofill="no"
+        android:id="@+id/searchView2"
+        />
+   <androidx.recyclerview.widget.RecyclerView
+
+       android:layout_marginTop="250dp"
+       android:id="@+id/recylerView"
+       android:layout_width="match_parent"
+
+
+       android:scrollbarSize="15dp"
+
+       android:layout_height="match_parent"/>
+</RelativeLayout>
