@@ -29,7 +29,9 @@ Bu menüde kullanıcı, online sistem sayesinde istenilen özellikteki oyuncuyu 
 
 ## TEKNİK DONANIM
 
-Bu uygulamada firebase sistemleriyle real time operasyonları ve authentication sistemleri yapılmıştır.
+Android Studio ile yapılmıştır. 
+Firebase sistemleriyle real time operasyonları ve authentication sistemleri yapılmıştır.
+
 
 
 
