@@ -9,15 +9,11 @@ Halısahadayım uygulamasının özelliklerini maddeler halinde sıralarsak :
 - Maç Ekle
 - Maç Bul
 - Taktik Yap
-- Kadro Kur
+
 
 ## TAKTİK YAP
 
 Bu menü sayesinde boş bir ekrana çizim yapılabilmektedir.
-
-## KADRO KUR
-
-Bu menü sayesinde ise kadrodaki oyuncuların isimleri hafızadan silinmesin diye buraya yazılıp daha sonra ekran görüntüsü alınabilir.
 
 ## OYUNCU VE MAÇ EKLE
 
@@ -27,7 +23,7 @@ Bu menüde kullanıcı, online sistem sayesinde kendisini yada bir arkadaşını
 
 Bu menüde kullanıcı, online sistem sayesinde istenilen özellikteki oyuncuyu ve maçı kolayca bulabilmektedir.
 
-## TEKNİK DONANIM
+## YAZILIM
 
 Android Studio ile yapılmıştır. 
 Firebase sistemleriyle real time operasyonları ve authentication sistemleri yapılmıştır.
