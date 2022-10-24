@@ -7,7 +7,7 @@
 &ensp;
 <img src="https://i.ibb.co/R3R2Q1N/halisaha3.jpg"  width="400" height="500" alt="halisaha3" border="0" />
 &ensp;
-<img src="https://i.ibb.co/CKRG85w/halisaha2.jpg" alt="halisaha2" border="0" /></a>
+<img src="https://i.ibb.co/CKRG85w/halisaha2.jpg" width="400" height="500" alt="halisaha2" border="0" /></a>
 
 </p>
 
