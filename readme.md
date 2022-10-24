@@ -37,7 +37,7 @@ Bu menüde kullanıcı, online sistem sayesinde istenilen özellikteki oyuncuyu 
 <img src="https://i.ibb.co/CKRG85w/halisaha2.jpg" width="300" height="400" alt="halisaha2" border="0" /></a>
 ## YAZILIM
 
-Android Studio ile yapılmıştır. 
+Java diliyle Android Studio üzerinde yapılmıştır.
 Firebase sistemleriyle real time operasyonları ve authentication sistemleri yapılmıştır.
 
 
