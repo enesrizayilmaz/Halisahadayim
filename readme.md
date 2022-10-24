@@ -2,9 +2,9 @@
 <br>
 <br>
 <p>
-<img src="https://i.ibb.co/wCm1Vw4/halisahadayimgiris.jpg" alt="halisahadayimgiris" width="400" height="500" border="0" />
+<img src="https://i.ibb.co/wCm1Vw4/halisahadayimgiris.jpg" alt="halisahadayimgiris" width="300" height="400" border="0" />
 &ensp;
-<img src="https://i.ibb.co/hCJ2Gmv/halisaha1.jpg"  width="400" height="500" alt="halisaha1" border="0" />
+<img src="https://i.ibb.co/hCJ2Gmv/halisaha1.jpg"  width="300" height="400" alt="halisaha1" border="0" />
 
 
 
