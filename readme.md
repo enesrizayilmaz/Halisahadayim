@@ -1,19 +1,18 @@
 # Halısahadayım Uygulaması Nedir ?
 
 <p>
-<img src="https://i.ibb.co/wCm1Vw4/halisahadayimgiris.jpg" alt="halisahadayimgiris" width="400" height="400" border="0" />
+<img src="https://i.ibb.co/wCm1Vw4/halisahadayimgiris.jpg" alt="halisahadayimgiris" width="400" height="500" border="0" />
 &ensp;
 <img src="https://i.ibb.co/hCJ2Gmv/halisaha1.jpg"  width="400" height="400" alt="halisaha1" border="0" />
 &ensp;
-
-
-Halısahadayım uygulaması, halı saha maçlarında oluşan oyuncu eksiklerini gidermek, oyuncuların halı saha maçı arayıp bulamaması gibi sorunlara çözüm getiren bir uygulamadır.
-<p>
 <img src="https://i.ibb.co/R3R2Q1N/halisaha3.jpg"  width="400" height="400" alt="halisaha3" border="0" />
 &ensp;
 <img src="https://i.ibb.co/R3R2Q1N/halisaha3.jpg" width="400" height="400"  alt="halisaha3" border="0" />
 
 </p>
+
+Halısahadayım uygulaması, halı saha maçlarında oluşan oyuncu eksiklerini gidermek, oyuncuların halı saha maçı arayıp bulamaması gibi sorunlara çözüm getiren bir uygulamadır.
+
 Halısahadayım uygulamasının özelliklerini maddeler halinde sıralarsak :
 
 - Oyuncu Ekle
