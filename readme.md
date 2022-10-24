@@ -1,7 +1,7 @@
 # Halısahadayım Uygulaması Nedir ?
 
 <p>
-<img src="https://i.ibb.co/wCm1Vw4/halisahadayimgiris.jpg" alt="halisahadayimgiris" border="0" />
+<img src="https://i.ibb.co/wCm1Vw4/halisahadayimgiris.jpg" alt="halisahadayimgiris" width="400" height="200" border="0" />
 &ensp;
 <img src="https://i.ibb.co/hCJ2Gmv/halisaha1.jpg" alt="halisaha1" border="0" />
 &ensp;
