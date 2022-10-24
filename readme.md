@@ -28,11 +28,13 @@ Bu menü sayesinde boş bir ekrana çizim yapılabilmektedir.
 ## OYUNCU VE MAÇ EKLE
 
 Bu menüde kullanıcı, online sistem sayesinde kendisini yada bir arkadaşını oyuncu olarak ekleyebilir yada halı sahadaki maçını ekleyip diğer oyunculara açık hale getirebilir.
-<img src="https://i.ibb.co/R3R2Q1N/halisaha3.jpg"  width="400" height="500" alt="halisaha3" border="0" />
+<br>
+<img src="https://i.ibb.co/R3R2Q1N/halisaha3.jpg"  width="300" height="400" alt="halisaha3" border="0" />
 ## OYUNCU VE MAÇ BUL
 
 Bu menüde kullanıcı, online sistem sayesinde istenilen özellikteki oyuncuyu ve maçı kolayca bulabilmektedir.
-<img src="https://i.ibb.co/CKRG85w/halisaha2.jpg" width="400" height="500" alt="halisaha2" border="0" /></a>
+<br>
+<img src="https://i.ibb.co/CKRG85w/halisaha2.jpg" width="300" height="400" alt="halisaha2" border="0" /></a>
 ## YAZILIM
 
 Android Studio ile yapılmıştır. 
