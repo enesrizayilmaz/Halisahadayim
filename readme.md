@@ -32,7 +32,7 @@ Bu menüde kullanıcı, online sistem sayesinde kendisini yada bir arkadaşını
 <img src="https://i.ibb.co/R3R2Q1N/halisaha3.jpg"  width="300" height="400" alt="halisaha3" border="0" />
 ## OYUNCU VE MAÇ BUL
 
-Bu menüde kullanıcı, online sistem sayesinde istenilen özellikteki oyuncuyu ve maçı kolayca bulabilmektedir.
+Bu menüde kullanıcı, istenilen özellikteki oyuncuyu ve maçı kolayca bulabilmektedir.
 <br>
 <img src="https://i.ibb.co/CKRG85w/halisaha2.jpg" width="300" height="400" alt="halisaha2" border="0" /></a>
 ## YAZILIM
